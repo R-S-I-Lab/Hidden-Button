@@ -1,5 +1,5 @@
 let elements = document.body.getElementsByClassName("btn btn-outline-primary");
-let index = Math.floor(Math.random() * (0 - elements.length)) + elements.length;
+let index = Math.floor(Math.random() * elements.length);
 let randomElement = elements[index];
 
 function checkWinner(button) {
